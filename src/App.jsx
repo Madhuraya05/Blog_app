@@ -1,6 +1,5 @@
 import { useState ,useEffect} from 'react'
 import {useDispatch} from "react-redux"
-import './App.css'
 import authService from './appwrite/auth'
 import { login, logOut } from './store/authSlice'
 import Header from './component/Header/Header.jsx'
@@ -27,7 +26,7 @@ function App() {
         <div className='w-full block'>
           <Header/>
           <main>
-           
+          todo : {/* Outlet */}
           </main>
           <Footer/>
         </div>

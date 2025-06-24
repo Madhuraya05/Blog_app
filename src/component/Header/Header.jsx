@@ -59,6 +59,11 @@ function Header() {
               ):null
             )}
           </ul>
+          {authStatus && (
+            <li>
+              <LogoutBtn/>
+            </li>
+          )}
         </nav>
       </Container>
     </header>
